@@ -50,9 +50,7 @@ Desktop.ini
 data/raw/*.csv
 
 # ── Reports / generated exports ─────────────────────────
-reports/screenshots/*
 reports/exports/*
 reports/analysis_summary/*
-!reports/screenshots/.gitkeep
 !reports/exports/.gitkeep
 !reports/analysis_summary/.gitkeep
