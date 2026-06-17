@@ -1,0 +1,61 @@
+INFO: Loading data...
+INFO: Loaded 9,660 rows, 20 genres, 59 countries
+INFO: Starting dashboard...
+INFO: Dash is running on http://127.0.0.1:8050/
+
+INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+INFO: [33mPress CTRL+C to quit[0m
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:47] "GET / HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:47] "[36mGET /assets/style.css?m=1781680491.9787116 HTTP/1.1[0m" 304 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:47] "GET /_dash-layout HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:47] "GET /_dash-dependencies HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:47] "GET /_favicon.ico?v=4.2.0 HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:47] "[36mGET /_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1[0m" 304 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:47] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+INFO: render_tab(tab='overview', n=9459)
+INFO:   Rating Distribution: 1 traces
+INFO:   Year Trends: 2 traces
+INFO:   Revenue Analysis: 2 traces
+INFO:   Genre Distribution: 2 traces
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:47] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:47] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:47] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+INFO: render_tab(tab='performance', n=9459)
+INFO:   Top Movies: 1 traces
+INFO:   Budget vs Rating Bubble: 8 traces
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:56] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:56] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:48:56] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+INFO: render_tab(tab='genres', n=9459)
+INFO:   Genre Distribution: 2 traces
+INFO:   Revenue by Genre: 12 traces
+INFO:   Rating Distribution: 1 traces
+INFO: 127.0.0.1 - - [17/Jun/2026 13:49:02] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO: render_tab(tab='advanced', n=9459)
+INFO:   Correlation Heatmap: 1 traces
+INFO:   K-Means Clustering: 1 traces
+INFO:   PCA Visualization: 4 traces
+INFO:   Movie Segmentation: 1 traces
+INFO: 127.0.0.1 - - [17/Jun/2026 13:49:11] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO: render_tab(tab='overview', n=9459)
+INFO:   Rating Distribution: 1 traces
+INFO:   Year Trends: 2 traces
+INFO:   Revenue Analysis: 2 traces
+INFO:   Genre Distribution: 2 traces
+INFO: 127.0.0.1 - - [17/Jun/2026 13:49:18] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:52:07] "GET / HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:52:07] "[36mGET /assets/style.css?m=1781680491.9787116 HTTP/1.1[0m" 304 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:52:07] "GET /_dash-layout HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:52:07] "GET /_dash-dependencies HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:52:07] "GET /_favicon.ico?v=4.2.0 HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:52:07] "[36mGET /_dash-component-suites/dash/dcc/async-slider.js HTTP/1.1[0m" 304 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:52:07] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+INFO: render_tab(tab='overview', n=9459)
+INFO:   Rating Distribution: 1 traces
+INFO:   Year Trends: 2 traces
+INFO:   Revenue Analysis: 2 traces
+INFO:   Genre Distribution: 2 traces
+INFO: 127.0.0.1 - - [17/Jun/2026 13:52:07] "POST /_dash-update-component HTTP/1.1" 200 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:52:07] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+INFO: 127.0.0.1 - - [17/Jun/2026 13:52:07] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -

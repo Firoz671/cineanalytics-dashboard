@@ -1,0 +1,58 @@
+# ═══════════════════════════════════════════════════════════
+# IMDb Movies Analytics Dashboard — .gitignore
+# ═══════════════════════════════════════════════════════════
+
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual Environment ────────────────────────────────
+.venv/
+venv/
+env/
+.env/
+
+# ── Jupyter ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*.nbconvert.*
+
+# ── IDE ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.DS_Store
+
+# ── Logs & Cache ────────────────────────────────────────
+*.log
+.cache/
+.cached/
+*.tmp
+
+# ── Secrets ─────────────────────────────────────────────
+.env
+.env.local
+*.key
+*.pem
+
+# ── Raw Data (large files, not versioned) ───────────────
+data/raw/*.csv
+
+# ── Reports / generated exports ─────────────────────────
+reports/screenshots/*
+reports/exports/*
+reports/analysis_summary/*
+!reports/screenshots/.gitkeep
+!reports/exports/.gitkeep
+!reports/analysis_summary/.gitkeep
