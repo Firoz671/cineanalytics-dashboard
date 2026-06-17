@@ -234,19 +234,19 @@ Machine learning and statistical analysis for data scientists:
 ## Dashboard Preview
 
 ### Executive Overview
-![Executive Overview](reports/screenshots/1.png)
+![Executive Overview](reports/screenshots/overview.png)
 *8 KPI cards, executive summary, rating distribution, year trends, genre volume vs. rating*
 
 ### Movie Performance
-![Movie Performance](reports/screenshots/2.png)
+![Movie Performance](reports/screenshots/movie-performance.png)
 *Top 10 tables (score/revenue/ROI), top 20 horizontal bar chart, budget vs. rating bubble chart*
 
 ### Genre Analytics
-![Genre Analytics](reports/screenshots/3.png)
+![Genre Analytics](reports/screenshots/genre-analytics.png)
 *Genre distribution dual-axis chart, revenue by genre box plots, rating histogram, insight cards*
 
 ### Advanced Analytics
-![Advanced Analytics](reports/screenshots/4.png)
+![Advanced Analytics](reports/screenshots/advanced-analytics.png)
 *Correlation heatmap, K-Means clustering, PCA projection, segmentation pie chart, data storytelling*
 
 ---
